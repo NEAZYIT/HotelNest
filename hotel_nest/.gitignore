@@ -40,3 +40,5 @@ next-env.d.ts
 /.vscode/
 
 # Ignore any other files or directories that are specific to your development environment
+# Ignore specific file
+codeDepanage.md
