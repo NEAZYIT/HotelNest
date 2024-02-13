@@ -4,7 +4,7 @@ import { BsFillSendFill, BsTelephoneOutbound } from "react-icons/bs"
 
 const Footer = () => {
   return (
-    <footer className="mt-16">
+    <footer className="mt-16 font-montserrat">
       <div className="container mx-auto px-4">
         <Link href="/" className="font-black text-tertiary-light">
             HotelNest
@@ -49,9 +49,7 @@ const Footer = () => {
         </div>
       </div>
       
-      <div className="bg-tertiary-light h-10 md:h-[70px] mt-16 w-full bottom-0 left-0">
-
-      </div>
+      <div className="bg-tertiary-light h-10 md:h-[70px] mt-16 w-full bottom-0 left-0" />
     </footer>
   )
 }
