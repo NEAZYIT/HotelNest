@@ -2,6 +2,7 @@ import Head from 'next/head';
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import Footer from '@/components/Footer/Footer';
 
 export const metadata: Metadata = {
   title: "HotelNest",
@@ -22,7 +23,7 @@ export default function RootLayout({
         <main className='font-normal'>
           <Header />
           {children}
-          {/* ?Footer */}
+          <Footer />
         </main>
       </body>
     </html>
