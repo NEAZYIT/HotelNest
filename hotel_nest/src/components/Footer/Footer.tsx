@@ -28,27 +28,27 @@ const Footer = () => {
                 <div className="flex items-center pt-4">
                     <BiMessageDetail />
                     <p className="ml-2">CodeWithme</p>
-                </div>
+                </div>                
+            </div>
 
-                <div className="flex-1 md:text-right">
-                    <p className="pb-4">Us</p>
-                    <p className="pb-4">Get in Touch</p>
-                    <p className="pb-4">Our Privacy</p>
-                    <p className="pb-4">Terms of Service</p>
-                    <p>Costumer Support</p>
-                </div>
+            <div className="flex-1 md:text-right">
+              <p className="pb-4">Us</p>
+              <p className="pb-4">Get In Touch</p>
+              <p className="pb-4">Our Privacy</p>
+              <p className="pb-4">Terms of Service</p>
+              <p>Costume Support</p>
+            </div>
 
-                <div className="flex-1 md:text-right">
-                    <p className="pb-4">Dining Experience</p>
-                    <p className="pb-4">Wellness</p>
-                    <p className="pb-4">Fitness</p>
-                    <p className="pb-4">Sport</p>
-                    <p>Events</p>
-                </div>
+            <div className="flex-1 md:text-right">
+              <p className="pb-4">Dining Experience</p>
+              <p className="pb-4">Wellness</p>
+              <p className="pb-4">Fitness</p>
+              <p className="pb-4">Sport</p>
+              <p>Event</p>
             </div>
         </div>
       </div>
-
+      
       
     </footer>
   )
