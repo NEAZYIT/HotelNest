@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from '@/components/Footer/Footer';
+import ThemeProvider from '@/components/ThemeProvider/ThemeProvider';
 
 export const metadata: Metadata = {
   title: "HotelNest",
@@ -20,11 +21,13 @@ export default function RootLayout({
         <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap' rel='stylesheet' />
       </Head>
       <body className='font-montserrat'>
-        <main className='font-normal'>
-          <Header />
-          {children}
-          <Footer />
-        </main>
+        <ThemeProvider>
+          <main className='font-normal'>
+            <Header />
+            {children}
+            <Footer />
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );
