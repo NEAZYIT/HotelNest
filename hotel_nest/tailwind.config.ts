@@ -16,6 +16,7 @@ const config: Config = {
         tertiary: {
           dark: "#000000",  // Black
           light: "#E5E5E5",  // Lighter Gray
+          yellow: "#DAB303", // Yellow
         },
       },
       fontFamily: {
