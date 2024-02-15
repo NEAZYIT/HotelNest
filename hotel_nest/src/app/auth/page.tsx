@@ -87,7 +87,7 @@ const Auth = () => {
                     />
 
 
-                    <button type="submit" className="w-full bg-tertiary-yellow focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center transition-all duration-100 ease-in-out hover:bg-orange-400 focus:ring-4  focus:ring-blue-300   ">
+                    <button type="submit" className="w-full bg-tertiary-yellow focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center transition-all duration-100 ease-in-out hover:bg-orange-400 focus:ring-4  focus:ring-blue-300 " >
                         sign up
                     </button>
 
